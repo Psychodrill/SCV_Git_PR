@@ -143,3 +143,17 @@ count--;
 ```
 To get merged changes from remote repository use command `git pull`
 To get unmerged changes from remote repository use command `git fetch`
+
+## 16 Work with not owned projects
+1. Find project and push button `Fork`
+2. Clone this fork on your local machine by command 
+```
+git clone
+```
+3. Should be right to create **new** branch by command described above
+4. Make your changes and commit it by command described in  block `5 Record changes in repository`
+5. Push your changes to remote repository by command
+```
+git push
+```
+6. Create Pull Request in remote repository.
